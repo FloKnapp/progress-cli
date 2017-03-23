@@ -1,0 +1,22 @@
+{
+    "name": "floknapp/progress-cli",
+    "description": "A simple progress bar for the php cli",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Florian Knapp",
+            "email": "florian.knapp@check24.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "4.8.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgressCli\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
